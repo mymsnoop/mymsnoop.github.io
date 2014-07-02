@@ -1,0 +1,285 @@
+.apps a{
+	text-decoration: none;
+	margin-left:10px;
+	cursor: pointer;
+}
+.apps a:visited{
+	text-decoration: none;
+	margin-left:0px;
+	border-left: 10px solid black;
+}
+.apps a:hover{
+	text-decoration: none;
+	margin-left:0px;
+	border-left: 10px solid black;
+}
+.close{
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#uploadBox{
+	margin-top:100px;
+	text-align:center;
+	border:4px dashed black;
+	font-size: 25px
+}
+#my-awesome-dropzone{
+	
+	min-height: 200px;
+}
+#bakar{
+	display: none;
+}
+#trash-bin{
+	display:none;
+	text-align: center;
+}
+#trash-bin img{
+	max-width:25%;
+}
+#lid{
+	margin-top: 100px;
+}
+.lid-rot{
+	-webkit-transform: rotate(-30deg);
+	-webkit-transform-origin:0% 100%;
+}
+.ui-dialog-osx {
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px; 
+    border-width: 8px 8px 8px 8px;
+}
+.ui-front{
+	z-index: 6000;
+}
+#appInfo{
+	resize: vertical;
+}
+#drag-dabba{
+	background-color: red;
+	height:200px;
+	width: 200px;
+}
+.navbar-fixed-top{
+	z-index: 10000;
+}
+
+hr {
+	border-top: 1px solid black;  
+}
+
+.alert h4 {
+	color:#3F2D2D;
+}
+
+#search_box{
+	height:29px;
+}
+
+
+.navbar-input-group {
+  font-size: 0px;
+}
+
+.navbar-input-group input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.navbar-input-group .btn {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 0px;
+}
+
+.to_center{
+	 display: block;
+  	 margin-left: auto;
+  	 margin-right: auto;
+}
+
+.img_shadow {
+	border: 5px solid white;
+-webkit-box-shadow: 0px 0px 15px 1px rgba(50, 50, 50, 0.63);
+-moz-box-shadow:    0px 0px 15px 1px rgba(50, 50, 50, 0.63);
+box-shadow:         0px 0px 15px 1px rgba(50, 50, 50, 0.63);
+}
+
+.no-left-gutter {
+	padding-left:0;
+}
+
+.jumbotron-bd {
+  padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #ABE1FF;
+}
+.jumbotron-bd h1,
+.jumbotron-bd .h1 {
+  color: inherit;
+}
+.jumbotron-bd p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.container .jumbotron-bd {
+  border-radius: 6px;
+}
+.jumbotron-bd .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron-bd {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron-bd {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron-bd h1,
+  .jumbotron-bd .h1 {
+    font-size: 63px;
+  }
+}
+
+.hide{
+	display:none;
+}
+
+.icon-blue{
+	color:#357ebd;
+}
+
+.input-group-addon{
+	background-color:#357ebd;
+	color:white;
+}
+
+.modal-content{
+	/*background: #ECECEC;*/
+}
+
+.close{
+	opacity:1;
+}
+
+.badge {
+	background-color:#428bca;
+}
+
+.navbar-default .navbar-nav > .active > a{
+	color:white;
+	font-weight:bold;
+}
+
+.redishpink{
+	background-color:#E75656;
+}
+
+
+.link-fadeinbg a {
+	border-bottom: 1px solid rgba(52,73,94,0.4);
+	font-weight: 500;
+	-webkit-transition: background-color 0.3s, border-color 0.3s;
+	transition: background-color 0.3s, border-color 0.3s;
+}
+
+.link-fadeinbg a:hover,
+.link-fadeinbg a:focus {
+	border-color: rgba(52,73,94,0);
+	background-color: rgba(52,73,94,0.1);
+}
+
+a:hover {
+text-decoration: none;
+}
+
+.piqto-dark-blue{
+	color:#0072bb;
+}
+
+.piqto-light-blue{
+	color:#00beff;
+}
+
+.piqto-orange{
+	color:#ff512a;
+}
+
+.piqto-yellow{
+	color:#ff9d00;
+}
+
+.piqto-pink{
+	color:#ff1b72;
+}
+
+.black{
+	color:#000000;
+}
+
+.alternate-row{
+	background-color:#CFE8F8;
+}
+
+.first-row{
+	background-color:#84E0FF;
+}
+
+.title-on-hover{
+	border-bottom: 1px solid #00beff;
+}
+
+.piqto-yellow-underline{
+	border-bottom: 1px solid #ff9d00;
+}
+
+.trigger-sub-text-italic{
+	font-style:italic;
+}
+
+.my-alert {
+padding: 2px;
+margin-bottom: 5px;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+
+.panel-title {
+	font-weight:bold;
+}
+
+.fixed {
+    position: fixed;
+}
+
+/* sidebar */
+.bs-docs-sidebar {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* all links */
+.bs-docs-sidebar .nav>li>a {
+    color: #999;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* nested links */
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+.bs-docs-sidebar .nav>.active>a { 
+    color: #563d7c;
+}
